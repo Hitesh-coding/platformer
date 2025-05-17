@@ -196,6 +196,9 @@ public class Level {
 	//#############################################################################################################
 	//Your code goes here! 
 	//Please make sure you read the rubric/directions carefully and implement the solution recursively!
+
+	//Preconditions: A water flower needs to be touched by the player's hitbox
+	//Postconditions: According to the water's physics it will flow
 	private void water(int col, int row, Map map, int fullness) {
 		  //make water (You’ll need modify this to make different kinds of water such as half water and quarter water)
 		  String name = "";
