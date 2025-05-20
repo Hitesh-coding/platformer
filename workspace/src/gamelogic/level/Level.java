@@ -251,11 +251,10 @@ else {
 		}
 
 	}
-	if (row+1 < map.getTiles()[0].length && !(map.getTiles()[col][row+1] instanceof Water) && !map.getTiles()[col][row+1].isSolid()) {
-	water(col, row+1, map, 0);
-}
 	
 }
+	
+
 
 
 
